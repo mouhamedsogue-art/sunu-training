@@ -22,8 +22,8 @@ const Services = () => {
       desc: "Algorithmes de matching IA pour connecter les talents aux besoins spécifiques des entreprises.",
       icon: Briefcase,
       color: "bg-blue-600",
-      image: "/call-center-agent-tracking-shipments-office-looking-pc-screen.jpg",
-      imagePosition: "object-top"
+      image: "/WhatsApp Image 2026-05-06 at 4.15.31 PM.jpeg",
+      imagePosition: "object-center"
     },
     {
       title: "Intérim Digital",
