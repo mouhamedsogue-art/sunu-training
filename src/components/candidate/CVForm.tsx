@@ -479,7 +479,7 @@ const CVForm = () => {
             <img
               src="/logo.png"
               alt="SUNU Training Center"
-              className="h-9 w-auto max-w-[110px] object-contain"
+              className="h-11 w-auto max-w-[140px] object-contain"
             />
             <h2 className="font-extrabold text-xl tracking-tight">Ma Candidature</h2>
           </div>

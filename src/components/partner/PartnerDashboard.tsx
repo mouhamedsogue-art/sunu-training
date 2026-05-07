@@ -52,7 +52,7 @@ const PartnerDashboard: React.FC<PartnerDashboardProps> = ({ onExit }) => {
               <img
                 src="/logo.png"
                 alt="SUNU Training Center"
-                className="h-10 w-auto max-w-[120px] object-contain"
+                className="h-12 w-auto max-w-[150px] object-contain"
               />
             </div>
             <div className="flex flex-col">

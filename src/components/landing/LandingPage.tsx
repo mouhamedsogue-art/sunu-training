@@ -166,7 +166,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onCandidateClick, onPartnerCl
                   <img
                     src="/logo.png"
                     alt="SUNU Training Center"
-                    className="h-20 w-auto max-w-[280px] object-contain"
+                    className="h-24 w-auto max-w-[320px] object-contain"
                   />
                 </div>
               </div>

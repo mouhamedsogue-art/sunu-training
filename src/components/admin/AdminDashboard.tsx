@@ -70,7 +70,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onExit }) => {
               <img
                 src="/logo.png"
                 alt="SUNU Training Center"
-                className="h-11 w-auto max-w-[130px] object-contain"
+                className="h-14 w-auto max-w-[170px] object-contain"
               />
             </div>
             <div>
