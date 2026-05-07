@@ -22,7 +22,8 @@ const Services = () => {
       desc: "Algorithmes de matching IA pour connecter les talents aux besoins spécifiques des entreprises.",
       icon: Briefcase,
       color: "bg-blue-600",
-      image: "/call-center-agent-tracking-shipments-office-looking-pc-screen.jpg"
+      image: "/call-center-agent-tracking-shipments-office-looking-pc-screen.jpg",
+      imagePosition: "object-top"
     },
     {
       title: "Intérim Digital",
@@ -81,7 +82,11 @@ const Services = () => {
           {services.map((service, i) => (
             <div key={i} className="group bg-slate-50 rounded-[2.5rem] p-4 hover:bg-white hover:modern-shadow transition-all duration-500 border border-transparent hover:border-slate-100 flex flex-col h-full">
               <div className="relative h-60 rounded-[2rem] overflow-hidden mb-8 shadow-inner">
-                <img src={service.image} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className={`w-full h-full object-cover ${service.imagePosition ?? 'object-center'} group-hover:scale-110 transition-transform duration-1000`}
+                />
                 <div className={`absolute top-6 left-6 ${service.color} text-white p-4 rounded-2xl shadow-2xl shadow-black/20 group-hover:rotate-6 transition-transform`}>
                   <service.icon size={24} />
                 </div>
