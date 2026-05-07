@@ -34,7 +34,7 @@ const Navbar: React.FC<NavbarProps> = ({ onCandidateClick, onPartnerClick, onAdm
             <img
               src="/logo.png"
               alt="SUNU Training Center"
-              className="h-14 w-auto max-w-[190px] object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-16 w-auto max-w-[220px] object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </div>
 
