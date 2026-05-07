@@ -5,19 +5,25 @@ import Hero from './Hero';
 import Stats from './Stats';
 import Services from './Services';
 import TrainingCatalog from '../candidate/TrainingCatalog';
+import type { UserRole } from '@/App';
 
 interface LandingPageProps {
-  onCandidateClick: () => void;
-  onPartnerClick: () => void;
-  onAdminClick: () => void;
+  onLoginClick: () => void;
+  onRegisterClick: (defaultRole?: Exclude<UserRole, 'visitor'>) => void;
 }
 
-const LandingPage: React.FC<LandingPageProps> = ({ onCandidateClick, onPartnerClick, onAdminClick }) => {
+const LandingPage: React.FC<LandingPageProps> = ({ onLoginClick, onRegisterClick }) => {
   return (
     <div className="relative">
-      <Navbar onCandidateClick={onCandidateClick} onPartnerClick={onPartnerClick} onAdminClick={onAdminClick} />
+      <Navbar
+        onLoginClick={onLoginClick}
+        onRegisterClick={onRegisterClick}
+      />
       <main>
-        <Hero onCandidateClick={onCandidateClick} onPartnerClick={onPartnerClick} />
+        <Hero
+          onLoginClick={onLoginClick}
+          onRegisterClick={onRegisterClick}
+        />
         <Stats />
         <Services />
         
