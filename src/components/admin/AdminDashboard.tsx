@@ -66,8 +66,12 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onExit }) => {
       <aside className="w-72 bg-slate-900 text-white flex flex-col fixed h-full z-30 transition-all duration-300">
         <div className="p-8 border-b border-white/5">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 bg-primary rounded-2xl flex items-center justify-center shadow-2xl shadow-primary/40">
-              <span className="text-white font-black text-2xl italic">S</span>
+            <div className="bg-white rounded-2xl p-1.5 shadow-2xl shadow-primary/20">
+              <img
+                src="/logo.png"
+                alt="SUNU Training Center"
+                className="h-11 w-auto max-w-[130px] object-contain"
+              />
             </div>
             <div>
               <p className="font-black text-xl leading-none tracking-tight">SUNU Admin</p>

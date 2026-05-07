@@ -476,7 +476,11 @@ const CVForm = () => {
         {/* Step Progress Sidebar */}
         <div className="lg:w-80 bg-gray-50/50 p-10 border-b lg:border-b-0 lg:border-r border-gray-100">
           <div className="flex items-center gap-3 mb-12">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white font-bold">S</div>
+            <img
+              src="/logo.png"
+              alt="SUNU Training Center"
+              className="h-9 w-auto max-w-[110px] object-contain"
+            />
             <h2 className="font-extrabold text-xl tracking-tight">Ma Candidature</h2>
           </div>
           

@@ -47,8 +47,12 @@ const CandidatePortal: React.FC<CandidatePortalProps> = ({ onExit }) => {
       <aside className="w-72 bg-white border-r border-gray-100 hidden md:flex flex-col fixed h-full z-20">
         <div className="p-8 border-b border-gray-50">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/20">
-              <span className="text-white font-black text-xl italic">S</span>
+            <div className="bg-white rounded-xl p-1.5 shadow-lg shadow-primary/10 border border-gray-100">
+              <img
+                src="/logo.png"
+                alt="SUNU Training Center"
+                className="h-10 w-auto max-w-[120px] object-contain"
+              />
             </div>
             <div>
               <span className="font-bold text-lg block leading-none">SUNU Candidate</span>
@@ -112,11 +116,11 @@ const CandidatePortal: React.FC<CandidatePortalProps> = ({ onExit }) => {
               </Button>
               <div className="flex items-center gap-3 pl-6 border-l border-gray-100">
                 <div className="text-right hidden sm:block">
-                  <p className="text-sm font-bold text-foreground leading-none mb-1">Jean Dupont</p>
+                  <p className="text-sm font-bold text-foreground leading-none mb-1">Samba Ndiaye</p>
                   <p className="text-[10px] text-muted-foreground font-bold uppercase tracking-widest">Candidat Junior GRC</p>
                 </div>
                 <div className="w-11 h-11 rounded-xl bg-primary text-white flex items-center justify-center font-black text-lg shadow-lg shadow-primary/20 cursor-pointer hover:scale-105 transition-transform">
-                  JD
+                  SN
                 </div>
               </div>
             </div>
@@ -133,7 +137,7 @@ const CandidatePortal: React.FC<CandidatePortalProps> = ({ onExit }) => {
                 <div className="relative z-10 flex flex-col md:flex-row items-center gap-10">
                   <div className="flex-1">
                     <Badge className="bg-primary/20 text-primary border-none mb-6 px-4 py-1.5 font-black uppercase tracking-widest text-[10px]">Boostez votre carrière</Badge>
-                    <h1 className="text-4xl font-extrabold mb-4 tracking-tight">Bienvenue sur SUNU Center, Jean ! 👋</h1>
+                    <h1 className="text-4xl font-extrabold mb-4 tracking-tight">Bienvenue sur SUNU Center, Samba ! 👋</h1>
                     <p className="text-gray-400 text-lg mb-10 max-w-xl leading-relaxed">Votre profil est en cours d'analyse par notre IA. Complétez vos expériences pour attirer les meilleures opportunités en GRC.</p>
                     <Button className="bg-primary hover:bg-primary/90 text-white font-black h-14 px-10 rounded-2xl shadow-xl shadow-primary/30 transition-all hover:-translate-y-1" onClick={() => setActiveTab('cv')}>
                       Compléter mon profil IA <ChevronRight className="ml-2 w-5 h-5" />

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { 
-  Building2, 
   Users, 
   Plus, 
   LogOut, 
@@ -49,8 +48,12 @@ const PartnerDashboard: React.FC<PartnerDashboardProps> = ({ onExit }) => {
       <aside className="w-64 bg-slate-900 text-white hidden md:flex flex-col fixed h-full z-20 shadow-2xl">
         <div className="p-8 border-b border-white/5">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center shadow-lg shadow-orange-500/20">
-              <Building2 className="text-white w-6 h-6" />
+            <div className="bg-white rounded-xl p-1.5 shadow-lg shadow-orange-500/10">
+              <img
+                src="/logo.png"
+                alt="SUNU Training Center"
+                className="h-10 w-auto max-w-[120px] object-contain"
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-black text-lg leading-none tracking-tight">SUNU B2B</span>

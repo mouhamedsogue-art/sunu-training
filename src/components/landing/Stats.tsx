@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const stats = [
-  { label: "CV reçus & analysés", value: "12,450", suffix: "+", color: "text-primary" },
-  { label: "Entreprises partenaires", value: "350", suffix: "+", color: "text-orange-500" },
-  { label: "Profils disponibles", value: "8,200", suffix: "", color: "text-slate-900" },
+  { label: "CV reçus & analysés", value: "5000", suffix: "+", color: "text-primary" },
+  { label: "Entreprises partenaires", value: "20", suffix: "+", color: "text-orange-500" },
+  { label: "Profils disponibles", value: "4500", suffix: "", color: "text-slate-900" },
   { label: "Taux de satisfaction", value: "98", suffix: "%", color: "text-green-600" }
 ];
 
