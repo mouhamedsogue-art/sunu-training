@@ -40,8 +40,8 @@ const PartnerDashboard: React.FC<PartnerDashboardProps> = ({ onExit }) => {
 
   const requests = [
     { id: 'REQ-001', role: 'Conseiller GRC', count: 5, status: 'Matching IA', date: "Aujourd'hui, 10:45", progress: 65 },
-    { id: 'REQ-002', role: 'Manager CRM', count: 1, status: 'Terminé', date: '05 Mars 2024', progress: 100 },
-    { id: 'REQ-003', role: 'Télévendeur', count: 10, status: 'En attente', date: '14 Mars 2024', progress: 20 },
+    { id: 'REQ-002', role: 'Manager CRM', count: 1, status: 'Terminé', date: '05 Mars 2026', progress: 100 },
+    { id: 'REQ-003', role: 'Télévendeur', count: 10, status: 'En attente', date: '14 Mars 2026', progress: 20 },
   ];
 
   return (

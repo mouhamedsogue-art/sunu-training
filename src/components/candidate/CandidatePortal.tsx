@@ -244,7 +244,7 @@ const CandidatePortal: React.FC<CandidatePortalProps> = ({ onExit }) => {
                     <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-orange-600 shadow-sm shrink-0">
                       <Target size={20} />
                     </div>
-                    <p className="text-xs font-bold text-orange-800 leading-tight">Prochaine session GRC : <span className="font-black">15 Avril 2024</span>. Inscrivez-vous avant qu'il ne soit trop tard !</p>
+                    <p className="text-xs font-bold text-orange-800 leading-tight">Prochaine session GRC : <span className="font-black">15 Avril 2026</span>. Inscrivez-vous avant qu'il ne soit trop tard !</p>
                   </div>
                 </div>
               </div>

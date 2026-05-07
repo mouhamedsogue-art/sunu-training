@@ -60,7 +60,7 @@ const CookieConsent = () => {
               
               <div className="mt-8 pt-8 border-t border-white/5 flex items-center gap-3">
                  <ShieldCheck className="text-primary" size={16} />
-                 <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Conforme RGPD 2024</span>
+                 <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Conforme RGPD 2026</span>
               </div>
             </div>
           </motion.div>

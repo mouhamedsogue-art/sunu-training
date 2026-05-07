@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  Briefcase, 
+import {
   Menu, 
   X, 
   User,
@@ -32,13 +31,11 @@ const Navbar: React.FC<NavbarProps> = ({ onCandidateClick, onPartnerClick, onAdm
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3 cursor-pointer group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="w-11 h-11 bg-primary rounded-2xl flex items-center justify-center shadow-xl shadow-primary/20 group-hover:scale-110 transition-transform">
-              <span className="text-white font-black text-2xl italic">S</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-black tracking-tight leading-none text-slate-900 uppercase">SUNU Training</span>
-              <span className="text-[10px] text-primary font-black uppercase tracking-[0.4em] mt-1 italic">Center</span>
-            </div>
+            <img
+              src="/logo.png"
+              alt="SUNU Training Center"
+              className="h-14 w-auto max-w-[190px] object-contain transition-transform duration-300 group-hover:scale-105"
+            />
           </div>
 
           {/* Desktop Nav */}

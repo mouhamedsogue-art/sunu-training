@@ -146,7 +146,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onExit }) => {
             <div className="flex items-center gap-4 pl-6 border-l border-slate-200">
               <div className="text-right hidden sm:block">
                 <p className="text-sm font-black text-slate-900 leading-none">Admin SUNU</p>
-                <p className="text-[10px] text-primary font-black uppercase tracking-widest mt-1">Supervision 2024</p>
+                <p className="text-[10px] text-primary font-black uppercase tracking-widest mt-1">Supervision 2026</p>
               </div>
               <div className="w-12 h-12 rounded-2xl bg-slate-900 flex items-center justify-center font-black text-white shadow-xl shadow-slate-900/10">
                 AD

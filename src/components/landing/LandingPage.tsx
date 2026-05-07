@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Users, Cpu, GraduationCap, BarChart, ShieldCheck, Mail, Phone, MapPin, Search } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Stats from './Stats';
@@ -162,10 +162,13 @@ const LandingPage: React.FC<LandingPageProps> = ({ onCandidateClick, onPartnerCl
           <div className="grid md:grid-cols-4 gap-16">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center gap-3 mb-8">
-                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/20">
-                  <span className="text-white font-black text-2xl italic">S</span>
+                <div className="inline-flex bg-white rounded-2xl px-4 py-3 shadow-lg shadow-primary/10">
+                  <img
+                    src="/logo.png"
+                    alt="SUNU Training Center"
+                    className="h-16 w-auto max-w-[240px] object-contain"
+                  />
                 </div>
-                <span className="text-3xl font-black tracking-tighter">SUNU Training <span className="text-primary italic">Center</span></span>
               </div>
               <p className="text-gray-400 max-w-md text-lg leading-relaxed mb-10">
                 L'excellence dans le recrutement digitalisé et la formation professionnelle. Nous bâtissons le pont entre les talents africains et les opportunités mondiales.
@@ -198,7 +201,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onCandidateClick, onPartnerCl
             </div>
           </div>
           <div className="border-t border-white/5 mt-24 pt-10 text-center text-gray-500 text-sm font-bold uppercase tracking-widest">
-            &copy; 2024 SUNU Training Center. Digitalisé avec passion.
+            &copy; 2026 SUNU Training Center. Digitalisé avec passion.
           </div>
         </div>
       </footer>

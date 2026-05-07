@@ -27,7 +27,7 @@ const TrainingCatalog = () => {
       type: "Présentiel",
       duration: "40 heures",
       places: 12,
-      date: "15 Avril 2024",
+      date: "15 Avril 2026",
       image: "/students-paying-attention-class.jpg",
       icon: MessageCircle,
       accent: "bg-blue-500"
@@ -39,7 +39,7 @@ const TrainingCatalog = () => {
       type: "Présentiel",
       duration: "24 heures",
       places: 20,
-      date: "22 Avril 2024",
+      date: "22 Avril 2026",
       image: "/students-attending-university-class.jpg",
       icon: TrendingUp,
       accent: "bg-purple-500"
@@ -51,7 +51,7 @@ const TrainingCatalog = () => {
       type: "Hybride",
       duration: "30 heures",
       places: 15,
-      date: "02 Mai 2024",
+      date: "02 Mai 2026",
       image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80&w=800",
       icon: BrainCircuit,
       accent: "bg-accent"
@@ -75,7 +75,7 @@ const TrainingCatalog = () => {
       type: "Présentiel",
       duration: "20 heures",
       places: 18,
-      date: "10 Mai 2024",
+      date: "10 Mai 2026",
       image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800",
       icon: MessageCircle,
       accent: "bg-indigo-500"
@@ -87,7 +87,7 @@ const TrainingCatalog = () => {
       type: "Présentiel",
       duration: "32 heures",
       places: 10,
-      date: "18 Mai 2024",
+      date: "18 Mai 2026",
       image: "/account-management-team-coworkers-office-bonding-with-clients.jpg",
       icon: PhoneCall,
       accent: "bg-orange-500"
@@ -123,7 +123,7 @@ const TrainingCatalog = () => {
             <LayoutGrid size={22} className="mr-2" /> Tous les filtres
           </Button>
           <Button className="rounded-2xl h-16 px-10 bg-slate-900 text-white font-black shadow-2xl shadow-slate-900/20 transition-all hover:-translate-y-1">
-            <Calendar size={22} className="mr-2" /> Planning 2024
+            <Calendar size={22} className="mr-2" /> Planning 2026
           </Button>
         </div>
       </div>
